@@ -48,9 +48,10 @@ pytorch:
 python3 pytorch_vae.py
 python3 pytorch_vae_cnn.py
 ```
+## problems
 当前版本还有点问题，restore img 已经没问题了，其他任务还有待提升
 由于缺乏没有torch image process模块，所以暂时paddle的result不是很好看，可以用暂时用torch的模块。
-Todo:
+## Todo:
 - conv fix bug when generating results 
 - latent manifold clustering
 - image process utils.py 
