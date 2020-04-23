@@ -1,7 +1,7 @@
 # VAE PaddlePaddle Fluid 
 
 ###### 2020.4.23
-
+## Backgroud
 This is a paddle implementation of the paper Auto-Encoding Variational Bayes by Kingma and Welling.
  - It uses ReLUs and the momentum optimizer, instead of sigmoids and adagrad. 
  - These changes make the network converge much faster.（参考竞品实现描述）
