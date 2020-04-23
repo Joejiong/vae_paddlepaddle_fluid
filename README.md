@@ -55,6 +55,9 @@ VAElinear:
 
 - pytorch_vae.py
 
+VAECNN:
+- pytorch_cnn_vae.py
+
 
 ### Command
 paddle: 
