@@ -1,4 +1,4 @@
-# vae_paddlepaddle_fluid
+# VAE PaddlePaddle Fluid 
 
 ###### 2020.4.23
 
