@@ -37,6 +37,25 @@ VAE模型可以用做：
 2. Pytorch
 2. Python packages : numpy, scipy, PIL(or Pillow), matplotlib
 
+
+### paddle：
+VAElinear:
+ 
+ - train_vae_linear.py 
+ - vae_linear.py
+ 
+
+CNNVAE:
+
+ - train_cnn_vae.py
+ - cnn_vae.py
+
+### pytorch：
+VAElinear:
+
+- pytorch_vae.py
+
+
 ### Command
 paddle: 
 ```
