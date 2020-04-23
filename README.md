@@ -3,10 +3,6 @@
 ###### 2020.4.23
 
 This is a paddle implementation of the paper Auto-Encoding Variational Bayes by Kingma and Welling.
-- Pytorch: 1.4+
-- paddlepaddle: 1.7.1
-- Python: 3.7+
-
  - It uses ReLUs and the momentum optimizer, instead of sigmoids and adagrad. 
  - These changes make the network converge much faster.（参考竞品实现描述）
 https://github.com/pytorch/examples/tree/master/vae
@@ -18,6 +14,13 @@ VAE模型可以用做：
  - img segmentation
  - denoising
  - Learned MNIST manifold 无监督聚类
+ 
+相关环境
+
+- Pytorch: 1.4+
+- paddlepaddle: 1.7.1
+- Python: 3.7+
+ 
  
  ##关键技术点/子模块设计与实现方案
 
