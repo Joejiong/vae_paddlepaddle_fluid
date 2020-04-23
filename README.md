@@ -1,4 +1,5 @@
 # vae_paddlepaddle_fluid
+#####4月22日
 This is a paddle implementation of the paper Auto-Encoding Variational Bayes by Kingma and Welling.
 - Pytorch: 1.4+
 - paddlepaddle: 1.7.1
