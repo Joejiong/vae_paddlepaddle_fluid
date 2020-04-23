@@ -32,8 +32,14 @@ VAE模型可以用做：
 2. Python packages : numpy, scipy, PIL(or Pillow), matplotlib
 
 ### Command
+paddle: 
 ```
-python run_main.py --dim_z <latent vector dimension>
+python3 train_vae_linear.py
+python3 train_cnn_vae.py
 ```
-*Example*:
-`python run_main.py --dim_z 20`
+pytorch: 
+```
+python3 pytorch_vae.py
+python3 pytorch_vae_cnn.py
+```
+
